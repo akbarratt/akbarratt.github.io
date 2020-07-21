@@ -2,25 +2,40 @@
 
 body {
   background-color: #1D3557;
-  color: #F1FAEE;
+  color: #1D3557;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larger;
 }
 
 .container {
-  background-color: #457B9D;
+  background-color: #A8DADC;
   width: 60%;
   margin: 0 auto;
-  padding: 1%;
+  padding: 2rem;
   margin-bottom: 1em;
   text-align: center;
 }
 
 a {
-  color: #A8DADC;
+  color: #457B9D;
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
   color: #E63946;
+}
+
+img {
+  height: 50px;
+}
+
+/* Need to make icons change color on hover.
+https://www.tutorialrepublic.com/codelab.php?topic=faq&file=css-image-swap-on-hover
+
+Need to do some image editing. SVG unsupported in CSP.
+*/
+
+p {
+  text-align: justify;
 }
