@@ -1,16 +1,23 @@
+/* https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d90429 */
+
 html {
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: #edf2f4;
+  background-color: #2b2d42;
   margin: 1rem;
 }
 
+img {
+  height: 3rem;
+  filter: invert(100%);
+}
 
 main {
   width: 90%;
   padding: 1%;
   margin: auto;
-  background-color: gray;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 #links {
@@ -22,12 +29,25 @@ main {
   padding: 1%;
   margin: 1%;
   top: 50%;
-  background-color: white;
+  background-color: #edf2f4;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
   font-size: x-large;
   font-weight: 700;
+  color: #D90429;
   height: 3rem;
+}
+
+#links a:hover {
+  background-color: #8D99AE
+}
+
+#links a.highlight {
+  background-color: #F57A89;
+}
+
+footer {
+  margin-top: 10rem;
 }
