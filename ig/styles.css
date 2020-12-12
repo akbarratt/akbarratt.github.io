@@ -41,11 +41,16 @@ main {
 }
 
 #links a:hover {
-  background-color: #8D99AE
+  background-color: #8D99AE;
+}
+
+#links a.highlight:hover {
+  background-color: #8D99AE;
 }
 
 #links a.highlight {
   background-color: #F57A89;
+  color: #edf2f4;
 }
 
 footer {
